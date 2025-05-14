@@ -1,0 +1,25 @@
+#Without using input function
+
+a = 5
+b = 5 
+print(a+b)
+
+#without assigning datatypes because input function treat input as string by default
+
+
+a = input("Enter the first Number: ")
+b = input("Enter the Second Number: ")
+print(a+b)
+
+
+#After Assigning The data types
+
+a = int(input("Enter the first Number: "))
+b = int(input("Enter the Second Number: "))
+print(a+b)
+
+#You can Also assign it in print() Function
+
+a = int(input("Enter the first Number: "))
+b = int(input("Enter the Second Number: "))
+print(int(a+b))
